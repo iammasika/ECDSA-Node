@@ -1,0 +1,23 @@
+{
+  "name": "sdk-nodejs-example",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "@metamask/sdk": "^0.0.1-beta.5",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "ethereum-cryptography": "^2.0.0",
+    "ethereumjs-util": "^7.1.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
